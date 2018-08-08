@@ -1,5 +1,8 @@
 rules:
-  default:
+  default: 
+ 	 merge_strategy: 
+ 	 method: rebase 
+ 	 rebase_fallback: merge
     protection:
       required_pull_request_reviews:
         required_approving_review_count: 0
